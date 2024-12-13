@@ -1,0 +1,239 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #C0A7D0;
+    background-position: absolute;
+    font-size: 100%;
+}
+p {
+    font-family: ;
+}
+
+span {
+    font-family: "Crimson Pro Medium";
+    text-align: center;
+    color: #8940A3;
+}
+
+#nacslogowhite {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100vw;
+}
+
+#gamename {
+    text-align: center;
+    font-size: 6vw;
+    font-family: "Teachers Bold";
+    font-weight: bold;
+    /* text-shadow: 0 0 0.8vw #FFFCF9; */
+    color: #49005F;
+}
+
+#welcome {
+    text-align: center;
+    font-size: 12vw;
+    font-family: "Teachers Bold";
+    font-weight: bold;
+    /* text-shadow: 0 0 0.8vw black; */
+    color: #49005F;
+    margin-top: 18vw;
+}
+
+.wrapper {
+    box-sizing: content-box;
+    justify-content: center;
+    width: 92vw;
+    /* padding: 7vw 9vw; */
+    padding-top: 2vw;
+    padding-bottom:9vw;
+    /* padding-right: 15vw;
+    padding-left: 3vw; */
+    margin-top: 1vw;
+    background-color: #FFFCF9;
+    position: static;
+    /* transform: translate(0vw, 0vw);
+    left: 0;
+    top: 0; */
+    border-radius: 2vw;
+    box-shadow: 0 2vw 2.8vw rgba(86, 66, 0, 0.2);
+    ;
+}
+
+.extra stats-container {
+    width: inherit;
+}
+
+.hide {
+    display: none;
+}
+
+.game-container {
+    position: static;
+    justify-content: center;
+    /* width: 80vw; */
+    display: grid;
+    transform: translate(0vw, 0vw);
+    row-gap: 8.4vw;
+    column-gap: 3.5vw;
+    /* margin: 0;
+    margin-left: 6vw; */
+}
+
+.card-container {
+    position:relative;
+    display: flex;
+    justify-content: center;
+    width: 20vw;
+    height: 20vw;
+    cursor: pointer;
+    row-gap: 8.4vw;
+    column-gap: 3.5vw;
+}
+
+.card-before,
+.card-after {
+    position: absolute;
+    justify-content: center;
+    border-radius: 1vw;
+    width: 22vw;
+    height: 27vw;
+    display: flex;
+    border: 0.3vw solid #000000;
+    transition: transform 0.7s ease-out;
+    backface-visibility: hidden;
+    box-sizing: border-box;
+    padding: 2vw;
+}
+
+.cardtext {
+    font-size: 1.7vw;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 1vw;
+}
+
+image {
+    width: auto;
+    height: auto;
+}
+
+.card-before {
+    background-color: #8940A3;
+}
+
+.card-after {
+    background-color: #FFFCF9;
+    transform: rotateY(180deg);
+}
+
+.card-container.flipped .card-before {
+    transform: rotateY(180deg);
+}
+
+.card-container.flipped .card-after {
+    transform: rotateY(0deg);
+}
+
+.controls-container {
+    position: absolute;
+    display: hide;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 112%;
+    background-color: orange;
+    transform: translate(0vw, 2vw);
+}
+
+button {
+    border-radius: 1.5vw;
+    cursor: pointer;
+}
+
+.stats-container {
+    box-sizing: content-box;
+    width: 94vw;
+    padding: 2vw 2vw;
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+    margin-left: 1vw;
+    gap: 2vw;
+    background-color: #FFFCF9;
+    font-family: "Crimson Pro Medium";
+    color: #8940A3;
+    position: static;
+    font-size: 6vw;
+    border-radius: 2vw;
+    box-shadow: 0 2vw 2.8vw rgba(86, 66, 0, 0.2);
+}
+
+#stop {
+    font-size: 6vw;
+    background-color: #8940A3;
+    border: 0.3vw solid #000000;
+    color: #FFFCF9;
+    font-family: "Crimson Pro Medium";
+    font-weight: 600;
+    /* text-shadow: 0 0 0.5vw black; */
+}
+
+#play {
+    font-size: 6vw;
+    padding: 4vw 2.5vw;
+    background-color: #8940A3;
+    border: 0.3vw solid #000000;
+    color: #FFFCF9;
+    font-family: "Crimson Pro Medium";
+    font-weight: 600;
+    /* text-shadow: 0 0 0.5vw black; */
+}
+
+#start {
+    font-size: 6vw;
+    padding: 4vw 2.5vw;
+    background-color: #8940A3;
+    border: 0.3vw solid #000000;
+    color: #FFFCF9;
+    font-family: "Crimson Pro Medium";
+    font-weight: 600;
+    /* text-shadow: 0 0 0.5vw black; */
+}
+
+#moves-count {
+    font-size: 6vw;
+    text-align: center;
+    font-family: "Crimson Pro Medium";
+    padding-left: 0vw;
+    padding-right: 20vw;
+}
+
+#time {
+    font-size: 6vw;
+    text-align: center;
+    font-family: "Crimson Pro Medium";
+}
+
+#result {
+    text-align: center;
+    color: #8940A3;
+    background-color: transparent;
+    font-size: 16vw;
+    font-family: "Crimson Pro Medium";
+    font-weight: 800;
+    -webkit-text-stroke: 0.5vw black;
+    transform: translate(0, -150%);
+}
+
+.resulttext {
+    font-size: 16vw;
+    font-family: "Crimson Pro Medium";
+    font-weight: 900;
+}
