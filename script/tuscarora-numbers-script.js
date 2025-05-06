@@ -14,7 +14,7 @@ let secondCard = false;
 
 // Items array
 const items = [
-    {name: "One", clan: "Ę́·či", image: "../images/numbers-1-black.png", audio: "../audio/"},
+    {name: "One", clan: "Ę́·či", image: "../images/number-1-black.png", audio: "../audio/"},
     {name: "Two", clan: "Né·kti·", image: "../images/number-2-turquoise.png", audio: "../audio/"},
     {name: "Three", clan: "Áhsę", image: "../images/number-3-blue.png", audio: "../audio/"},
     {name: "Four", clan: "Hę́ʔtahk", image: "../images/number-4-yellow.png", audio: "../audio/"},
