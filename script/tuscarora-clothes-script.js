@@ -14,7 +14,7 @@ let secondCard = false;
 
 // Items array
 const items = [
-    {name: "Shirt / Coat / Dress", clan: "Úhsweh(Shirt/Coat) / Ukyeshúhčreh(Dress)", image: "../images/dress.png", audio: "../audio/"},
+    {name: "Shirt / Coat / Dress", clan: "Úhsweh-Shirt/Coat Ukyeshúhčreh-Dress", image: "../images/dress.png", audio: "../audio/"},
     {name: "Pants", clan: "Utaʔčhúhčreh", image: "../images/pants.png", audio: "../audio/"},
     {name: "Shoe / Boot / Sneaker", clan: "Učhikúʔreh", image: "../images/shoes.png", audio: "../audio/"},
     {name: "Moccasin", clan: "Méʔmeʔ", image: "../images/moccasin.png", audio: "../audio/"},
