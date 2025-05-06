@@ -14,15 +14,15 @@ let secondCard = false;
 
 // Items array
 const items = [
-    {name: "Bear", clan: "Ohkwá:ri", image: "../images/bear.png", audio: "../audio/Bear - Ohkwari.mp3"},
-    {name: "Deer", clan: "Ohskennón:ton", image: "../images/deer.png", audio: "../audio/Deer - Ohskennonton.mp3"},
-    {name: "Wolf", clan: "Okwáho", image: "../images/wolf.png", audio: "../audio/Wolf - Okwaho.mp3"},
-    {name: "Turtle", clan: "A'nó:wara", image: "../images/turtle.png", audio: "../audio/Turtle - A'nowara.mp3"},
-    {name: "Beaver", clan: "Tsyanì:to", image: "../images/beaver.png", audio: "../audio/Beaver - Tsyanito.mp3"},
-    {name: "Heron", clan: "Ohá:kwaront", image: "../images/heron.png", audio: "../audio/Heron - Ohakwaront.mp3"},
-    {name: "Snipe", clan: "Tawístawis", image: "../images/sandpiper.png", audio: "../audio/Snipe - Tawistawis.mp3"},
-    {name: "Hawk", clan: "Karhakón:ha", image: "../images/hawk.png", audio: "../audio/Hawk - Karhakonha.mp3"},
-    {name: "Eel", clan: "Tyawerón:ko", image: "../images/eel.png", audio: "../audio/Eel - Tyaweronko.mp3"},
+    {name: "Shirt / Coat / Dress", clan: "Atyá:tawi", image: "../images/dress.png", audio: "../audio/"},
+    {name: "Pants", clan: "Atháhsteren", image: "../images/pants.png", audio: "../audio/"},
+    {name: "Shoe / Boot / Sneaker", clan: "Áhta", image: "../images/shoes.png", audio: "../audio/"},
+    {name: "Moccasin", clan: "Ahtahkwa'ón:we", image: "../images/moccasin.png", audio: "../audio/"},
+    {name: "Hat", clan: "Anón:warore", image: "../images/hat.png", audio: "../audio/"},
+    {name: "Gloves / Mittens", clan: "A'nyá:nawen", image: "../images/gloves.png", audio: "../audio/"},
+    {name: "Socks", clan: "Ateráhti", image: "../images/socks.png", audio: "../audio/"},
+    {name: "Cane", clan: "Atèn:nits", image: "../images/cane.png", audio: "../audio/"},
+    {name: "Bag", clan: "Ká:yare", image: "../images/bag.png", audio: "../audio/"},
 ];
 
 // Items array

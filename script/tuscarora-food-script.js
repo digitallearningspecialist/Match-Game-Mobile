@@ -14,15 +14,17 @@ let secondCard = false;
 
 // Items array
 const items = [
-    {name: "Bear", clan: "Ohkwá:ri", image: "../images/bear.png", audio: "../audio/Bear - Ohkwari.mp3"},
-    {name: "Deer", clan: "Ohskennón:ton", image: "../images/deer.png", audio: "../audio/Deer - Ohskennonton.mp3"},
-    {name: "Wolf", clan: "Okwáho", image: "../images/wolf.png", audio: "../audio/Wolf - Okwaho.mp3"},
-    {name: "Turtle", clan: "A'nó:wara", image: "../images/turtle.png", audio: "../audio/Turtle - A'nowara.mp3"},
-    {name: "Beaver", clan: "Tsyanì:to", image: "../images/beaver.png", audio: "../audio/Beaver - Tsyanito.mp3"},
-    {name: "Heron", clan: "Ohá:kwaront", image: "../images/heron.png", audio: "../audio/Heron - Ohakwaront.mp3"},
-    {name: "Snipe", clan: "Tawístawis", image: "../images/sandpiper.png", audio: "../audio/Snipe - Tawistawis.mp3"},
-    {name: "Hawk", clan: "Karhakón:ha", image: "../images/hawk.png", audio: "../audio/Hawk - Karhakonha.mp3"},
-    {name: "Eel", clan: "Tyawerón:ko", image: "../images/eel.png", audio: "../audio/Eel - Tyaweronko.mp3"},
+    {name: "Food", clan: "Číkheʔ", image: "../images/food.png", audio: "../audio/"},
+    {name: "Butter", clan: "Utúʔθreh", image: "../images/butter.png", audio: "../audio/"},
+    {name: "Salt", clan: "Číkheʔ", image: "../images/salt.png", audio: "../audio/"},
+    {name: "Pepper", clan: "Yunęhsnačì:wakę", image: "../images/pepper.png", audio: "../audio/"},
+    {name: "Meat", clan: "Uʔwáhreh", image: "../images/meat.png", audio: "../audio/"},
+    {name: "Corn", clan: "Unéheh", image: "../images/corn.png", audio: "../audio/"},
+    {name: "Beans", clan: "Uθahéʔreh", image: "../images/beans.png", audio: "../audio/"},
+    {name: "Squash", clan: "Kačhéʔwaθ", image: "../images/squash.png", audio: "../audio/"},
+    {name: "Corn Bread", clan: "Kanęhúčhęʔ", image: "../images/cornbread.png", audio: "../audio/"},
+    {name: "Pizza", clan: "Kayehrè:nas Katkwá:tʔę", image: "../images/pizza.png", audio: "../audio/"},
+    {name: "Egg", clan: "Uʔnhéhseh", image: "../images/eggs.png", audio: "../audio/"},
 ];
 
 // Items array

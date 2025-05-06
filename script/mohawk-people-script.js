@@ -14,15 +14,16 @@ let secondCard = false;
 
 // Items array
 const items = [
-    {name: "Bear", clan: "Ohkwá:ri", image: "../images/bear.png", audio: "../audio/Bear - Ohkwari.mp3"},
-    {name: "Deer", clan: "Ohskennón:ton", image: "../images/deer.png", audio: "../audio/Deer - Ohskennonton.mp3"},
-    {name: "Wolf", clan: "Okwáho", image: "../images/wolf.png", audio: "../audio/Wolf - Okwaho.mp3"},
-    {name: "Turtle", clan: "A'nó:wara", image: "../images/turtle.png", audio: "../audio/Turtle - A'nowara.mp3"},
-    {name: "Beaver", clan: "Tsyanì:to", image: "../images/beaver.png", audio: "../audio/Beaver - Tsyanito.mp3"},
-    {name: "Heron", clan: "Ohá:kwaront", image: "../images/heron.png", audio: "../audio/Heron - Ohakwaront.mp3"},
-    {name: "Snipe", clan: "Tawístawis", image: "../images/sandpiper.png", audio: "../audio/Snipe - Tawistawis.mp3"},
-    {name: "Hawk", clan: "Karhakón:ha", image: "../images/hawk.png", audio: "../audio/Hawk - Karhakonha.mp3"},
-    {name: "Eel", clan: "Tyawerón:ko", image: "../images/eel.png", audio: "../audio/Eel - Tyaweronko.mp3"},
+    {name: "Young Man", clan: "Ranekénhteron", image: "../images/young-man.png", audio: "../audio/"},
+    {name: "Young Woman", clan: "Yeya'taséha", image: "../images/young-woman.png", audio: "../audio/"},
+    {name: "Child (boy)", clan: "Raksá:'a", image: "../images/boy.png", audio: "../audio/"},
+    {name: "Child (girl)", clan: "Yeksá:'a", image: "../images/girl.png", audio: "../audio/"},
+    {name: "Baby (boy)", clan: "Owirá:'a", image: "../images/baby-boy.png", audio: "../audio/"},
+    {name: "Baby (girl)", clan: "Owirá:'a", image: "../images/baby-girl.png", audio: "../audio/"},
+    {name: "Man", clan: "Rón:kwe", image: "../images/man.png", audio: "../audio/"},
+    {name: "Woman", clan: "Yakón:kwe", image: "../images/woman.png", audio: "../audio/"},
+    {name: "Old Man", clan: "Rokstén:ha", image: "../images/old-man.png", audio: "../audio/"},
+    {name: "Old Woman", clan: "Akokstén:ha", image: "../images/old-woman.png", audio: "../audio/"},
 ];
 
 // Items array

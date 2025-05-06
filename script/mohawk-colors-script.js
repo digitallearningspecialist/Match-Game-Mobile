@@ -14,15 +14,15 @@ let secondCard = false;
 
 // Items array
 const items = [
-    {name: "Bear", clan: "Ohkwá:ri", image: "../images/bear.png", audio: "../audio/Bear - Ohkwari.mp3"},
-    {name: "Deer", clan: "Ohskennón:ton", image: "../images/deer.png", audio: "../audio/Deer - Ohskennonton.mp3"},
-    {name: "Wolf", clan: "Okwáho", image: "../images/wolf.png", audio: "../audio/Wolf - Okwaho.mp3"},
-    {name: "Turtle", clan: "A'nó:wara", image: "../images/turtle.png", audio: "../audio/Turtle - A'nowara.mp3"},
-    {name: "Beaver", clan: "Tsyanì:to", image: "../images/beaver.png", audio: "../audio/Beaver - Tsyanito.mp3"},
-    {name: "Heron", clan: "Ohá:kwaront", image: "../images/heron.png", audio: "../audio/Heron - Ohakwaront.mp3"},
-    {name: "Snipe", clan: "Tawístawis", image: "../images/sandpiper.png", audio: "../audio/Snipe - Tawistawis.mp3"},
-    {name: "Hawk", clan: "Karhakón:ha", image: "../images/hawk.png", audio: "../audio/Hawk - Karhakonha.mp3"},
-    {name: "Eel", clan: "Tyawerón:ko", image: "../images/eel.png", audio: "../audio/Eel - Tyaweronko.mp3"},
+    {name: "Red", clan: "Onekwénhtara", image: "../images/number-8-red.png", audio: "../audio/"},
+    {name: "Orange", clan: "Akiarèn:ta", image: "../images/number-7-orange.png", audio: "../audio/"},
+    {name: "Yellow", clan: "Otsì:nekwar", image: "../images/number-4-yellow.png", audio: "../audio/"},
+    {name: "Green", clan: "Óhonte", image: "../images/number-5-green.png", audio: "../audio/"},
+    {name: "Blue", clan: "Oròn:ya", image: "../images/number-3-blue.png", audio: "../audio/"},
+    {name: "Purple", clan: "Oharennáhta", image: "../images/number-6-purple.png", audio: "../audio/"},
+    {name: "Brown", clan: "Athéhsa", image: "../images/number-9-brown.png", audio: "../audio/"},
+    {name: "Black", clan: "Kahòn:tsi", image: "../images/number-1-black.png", audio: "../audio/"},
+    {name: "White", clan: "Karà:ken", image: "../images/number-10-white.png", audio: "../audio/"},
 ];
 
 // Items array

@@ -14,15 +14,16 @@ let secondCard = false;
 
 // Items array
 const items = [
-    {name: "Bear", clan: "Ohkwá:ri", image: "../images/bear.png", audio: "../audio/Bear - Ohkwari.mp3"},
-    {name: "Deer", clan: "Ohskennón:ton", image: "../images/deer.png", audio: "../audio/Deer - Ohskennonton.mp3"},
-    {name: "Wolf", clan: "Okwáho", image: "../images/wolf.png", audio: "../audio/Wolf - Okwaho.mp3"},
-    {name: "Turtle", clan: "A'nó:wara", image: "../images/turtle.png", audio: "../audio/Turtle - A'nowara.mp3"},
-    {name: "Beaver", clan: "Tsyanì:to", image: "../images/beaver.png", audio: "../audio/Beaver - Tsyanito.mp3"},
-    {name: "Heron", clan: "Ohá:kwaront", image: "../images/heron.png", audio: "../audio/Heron - Ohakwaront.mp3"},
-    {name: "Snipe", clan: "Tawístawis", image: "../images/sandpiper.png", audio: "../audio/Snipe - Tawistawis.mp3"},
-    {name: "Hawk", clan: "Karhakón:ha", image: "../images/hawk.png", audio: "../audio/Hawk - Karhakonha.mp3"},
-    {name: "Eel", clan: "Tyawerón:ko", image: "../images/eel.png", audio: "../audio/Eel - Tyaweronko.mp3"},
+    {name: "One", clan: "Sga:t", image: "../images/number-1-black.png", audio: "../audio/"},
+    {name: "Two", clan: "Dekni:", image: "../images/number-2-turquoise.png", audio: "../audio/"},
+    {name: "Three", clan: "Ahsęh", image: "../images/number-3-blue.png", audio: "../audio/"},
+    {name: "Four", clan: "Géi", image: "../images/number-4-yellow.png", audio: "../audio/"},
+    {name: "Five", clan: "Hwíhs", image: "../images/number-5-green.png", audio: "../audio/"},
+    {name: "Six", clan: "Hyéi'", image: "../images/number-6-purple.png", audio: "../audio/"},
+    {name: "Seven", clan: "Já:dahk", image: "../images/number-7-orange.png", audio: "../audio/"},
+    {name: "Eight", clan: "Degrǫ'", image: "../images/number-8-red.png", audio: "../audio/"},
+    {name: "Nine", clan: "Gyo̱hdǫ:", image: "../images/number-9-brown.png", audio: "../audio/"},
+    {name: "Ten", clan: "Wa̱hshę̱", image: "../images/number-10-white.png", audio: "../audio/"},
 ];
 
 // Items array
@@ -103,6 +104,7 @@ const matrixGenerator = (cardValues, size = 4) => {
             </div>
         </div>`;
     }
+
     // Grid
     gameContainer.style.gridTemplateColumns = `repeat(${size}, auto)`;
 

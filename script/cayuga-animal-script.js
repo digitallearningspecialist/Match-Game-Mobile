@@ -12,18 +12,17 @@ let interval;
 let firstCard = false;
 let secondCard = false;
 
-
 // Items array
 const items = [
-    {name: "bear", clan: "hnyágwai'", image: "../images/bear.png", audio: "../audio/makwa.mp3"},
-    {name: "turtle", clan: "ganyáhdȩ:", image: "../images/turtle.png", audio: "../audio/mikinaak.mp3"},
-    {name: "wolf", clan: "otahyǫ:ni:", image: "../images/wolf.png", audio: "../audio/maiingan.mp3"},
-    {name: "deer", clan: "dewáhǫhde:s", image: "../images/deer.png", audio: "../audio/waawaashkeshi.mp3"},
-    {name: "hawk", clan: "oswȩ'gai:yo'", image: "../images/hawk.png", audio: "../audio/memeskniniisi.mp3"},
-    {name: "snipe", clan: "du:wisdu:wi:ˀ", image: "../images/sandpiper.png", audio: "../audio/Snipe - Duwisduwi.mp3"},
-    {name: "heron", clan: "sganyaˀdí:ga:ˀ", image: "../images/heron.png", audio: "../audio/aajiijak.mp3"},
-    {name: "beaver", clan: "naganyá'gǫ'", image: "../images/beaver.png", audio: "../audio/amik.mp3"},
-    {name: "eel", clan: "gǫ:deh", image: "../images/eel.png", audio: "../audio/giigoonh.mp3"},
+    {name: "Bear", clan: "Hnyágwai'", image: "../images/bear.png", audio: "../audio/makwa.mp3"},
+    {name: "Turtle", clan: "Ganyáhdȩ:", image: "../images/turtle.png", audio: "../audio/mikinaak.mp3"},
+    {name: "Wolf", clan: "Otahyǫ:ni:", image: "../images/wolf.png", audio: "../audio/maiingan.mp3"},
+    {name: "Deer", clan: "Dewáhǫhde:s", image: "../images/deer.png", audio: "../audio/waawaashkeshi.mp3"},
+    {name: "Hawk", clan: "Oswȩ'gai:yo'", image: "../images/hawk.png", audio: "../audio/memeskniniisi.mp3"},
+    {name: "Snipe", clan: "Du:wisdu:wi:ˀ", image: "../images/sandpiper.png", audio: "../audio/Snipe - Duwisduwi.mp3"},
+    {name: "Heron", clan: "Sganyaˀdí:ga:ˀ", image: "../images/heron.png", audio: "../audio/aajiijak.mp3"},
+    {name: "Beaver", clan: "Naganyá'gǫ'", image: "../images/beaver.png", audio: "../audio/amik.mp3"},
+    {name: "Eel", clan: "Gǫ:deh", image: "../images/eel.png", audio: "../audio/giigoonh.mp3"},
 ];
 
 // Items array

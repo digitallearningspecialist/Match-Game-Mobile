@@ -14,15 +14,18 @@ let secondCard = false;
 
 // Items array
 const items = [
-    {name: "Bear", clan: "Ohkwá:ri", image: "../images/bear.png", audio: "../audio/Bear - Ohkwari.mp3"},
-    {name: "Deer", clan: "Ohskennón:ton", image: "../images/deer.png", audio: "../audio/Deer - Ohskennonton.mp3"},
-    {name: "Wolf", clan: "Okwáho", image: "../images/wolf.png", audio: "../audio/Wolf - Okwaho.mp3"},
-    {name: "Turtle", clan: "A'nó:wara", image: "../images/turtle.png", audio: "../audio/Turtle - A'nowara.mp3"},
-    {name: "Beaver", clan: "Tsyanì:to", image: "../images/beaver.png", audio: "../audio/Beaver - Tsyanito.mp3"},
-    {name: "Heron", clan: "Ohá:kwaront", image: "../images/heron.png", audio: "../audio/Heron - Ohakwaront.mp3"},
-    {name: "Snipe", clan: "Tawístawis", image: "../images/sandpiper.png", audio: "../audio/Snipe - Tawistawis.mp3"},
-    {name: "Hawk", clan: "Karhakón:ha", image: "../images/hawk.png", audio: "../audio/Hawk - Karhakonha.mp3"},
-    {name: "Eel", clan: "Tyawerón:ko", image: "../images/eel.png", audio: "../audio/Eel - Tyaweronko.mp3"},
+    {name: "Food", clan: "Kákhwa", image: "../images/food.png", audio: "../audio/"},
+    {name: "Butter", clan: "Kanà:taronk", image: "../images/butter.png", audio: "../audio/"},
+    {name: "Salt", clan: "Teyohyò:tsis", image: "../images/salt.png", audio: "../audio/"},
+    {name: "Pepper", clan: "Teyotskara'kó:wa", image: "../images/pepper.png", audio: "../audio/"},
+    {name: "Meat", clan: "O'wà:ronk", image: "../images/meat.png", audio: "../audio/"},
+    {name: "Corn", clan: "Ó:nenhste", image: "../images/corn.png", audio: "../audio/"},
+    {name: "Beans", clan: "Ohsahé:ta", image: "../images/beans.png", audio: "../audio/"},
+    {name: "Squash", clan: "Onon'ónsera", image: "../images/squash.png", audio: "../audio/"},
+    {name: "Corn Bread", clan: "Kana'taronkhón:we", image: "../images/cornbread.png", audio: "../audio/"},
+    {name: "Pizza", clan: "Teyotena'tarahwenón:ni", image: "../images/pizza.png", audio: "../audio/"},
+    {name: "Eggs", clan: "O'nhónhsa", image: "../images/eggs.png", audio: "../audio/"},
+    {name: "Fried Bread", clan: "Kana'tararíhton", image: "../images/frybread.png", audio: "../audio/"},
 ];
 
 // Items array

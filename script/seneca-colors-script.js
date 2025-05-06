@@ -14,22 +14,21 @@ let secondCard = false;
 
 // Items array
 const items = [
-    {name: "Bear", clan: "Ohkwá:ri", image: "../images/bear.png", audio: "../audio/Bear - Ohkwari.mp3"},
-    {name: "Deer", clan: "Ohskennón:ton", image: "../images/deer.png", audio: "../audio/Deer - Ohskennonton.mp3"},
-    {name: "Wolf", clan: "Okwáho", image: "../images/wolf.png", audio: "../audio/Wolf - Okwaho.mp3"},
-    {name: "Turtle", clan: "A'nó:wara", image: "../images/turtle.png", audio: "../audio/Turtle - A'nowara.mp3"},
-    {name: "Beaver", clan: "Tsyanì:to", image: "../images/beaver.png", audio: "../audio/Beaver - Tsyanito.mp3"},
-    {name: "Heron", clan: "Ohá:kwaront", image: "../images/heron.png", audio: "../audio/Heron - Ohakwaront.mp3"},
-    {name: "Snipe", clan: "Tawístawis", image: "../images/sandpiper.png", audio: "../audio/Snipe - Tawistawis.mp3"},
-    {name: "Hawk", clan: "Karhakón:ha", image: "../images/hawk.png", audio: "../audio/Hawk - Karhakonha.mp3"},
-    {name: "Eel", clan: "Tyawerón:ko", image: "../images/eel.png", audio: "../audio/Eel - Tyaweronko.mp3"},
+    {name: "Red", clan: "Gwë́hdä́:'ë:'", image: "../images/number-8-red.png", audio: "../audio/"},
+    {name: "Orange", clan: "O:yá'ë:'", image: "../images/number-7-orange.png", audio: "../audio/"},
+    {name: "Yellow", clan: "Ojítgwä:'ë:'", image: "../images/number-4-yellow.png", audio: "../audio/"},
+    {name: "Green", clan: "Ganë́hdaikö'", image: "../images/number-5-green.png", audio: "../audio/"},
+    {name: "Blue", clan: "Gëöya'ë:'", image: "../images/number-3-blue.png", audio: "../audio/"},
+    {name: "Purple", clan: "Oshea'ë:'", image: "../images/number-6-purple.png", audio: "../audio/"},
+    {name: "Brown", clan: "Óísgwanyë́'da'ë:'", image: "../images/number-9-brown.png", audio: "../audio/"},
+    {name: "Black", clan: "Dzë:sdá'ë:'", image: "../images/number-1-black.png", audio: "../audio/"},
+    {name: "White", clan: "Gagë:ën", image: "../images/number-10-white.png", audio: "../audio/"},
 ];
 
 // Items array
 // const wampum = [
     // {name: "wampum", image: "wampumsmaller.png"},
 // ];
-
 
 // Initial Time
 let seconds = 0,
@@ -53,7 +52,6 @@ const timeGenerator = () => {
 // Initial Moves & Win Count
 let movesCount = 0,
     winCount = 0;
-    
 
 // Calculate moves
 const movesCounter = () => {
@@ -92,17 +90,18 @@ const matrixGenerator = (cardValues, size = 4) => {
             data-card-value is a custom attribute which stores the names of the cards to match later
         */
         gameContainer.innerHTML += `
-        <div class="card-container container-fluid" data-card-value="${cardValues[i].name}" data-audio-value="${cardValues[i].audio}">
-            <div class="card-before container-fluid"></div>
-            <div class="card card-after text-center container-fluid">
-                <div class"card container-fluid">
-                    <p class="card-title cardtext">${cardValues[i].clan}</p>
-                    <img src="${cardValues[i].image}" class="container-fluid">
-                    <p class="card-title cardtext">${cardValues[i].name}</p>
+            <div class="card-container container-fluid" data-card-value="${cardValues[i].name}" data-audio-value="${cardValues[i].audio}">
+                <div class="card-before container-fluid"></div>
+                <div class="card card-after text-center container-fluid">
+                    <div class"card container-fluid">
+                        <p class="card-title cardtext">${cardValues[i].clan}</p>
+                        <img src="${cardValues[i].image}" class="container-fluid">
+                        <p class="card-title cardtext">${cardValues[i].name}</p>
+                    </div>
                 </div>
-            </div>
-        </div>`;
+            </div>`;
     }
+
     // Grid
     gameContainer.style.gridTemplateColumns = `repeat(${size}, auto)`;
 
@@ -160,13 +159,14 @@ const matrixGenerator = (cardValues, size = 4) => {
                         let delay = setTimeout(() => {
                             tempFirst.classList.remove("flipped");
                             tempSecond.classList.remove("flipped");
-                        }, 1800);
+                        }, 1400);
                     }
                 }
             }
         });
     });
 };
+
 
 // Start game
 startButton.addEventListener("click", () => {
@@ -175,24 +175,27 @@ startButton.addEventListener("click", () => {
     minutes = 0;
     // Controls and button visibility
     gameWrap.classList.remove("hide");
-    // controls.classList.add("hide");
-    // stopButton.classList.remove("hide");
-    // startButton.classList.add("hide");
+    //stopButton.classList.remove("hide");
+    //playButton.classList.remove("hide");
+    //startButton.classList.add("hide");
     // Start timer
     interval = setInterval(timeGenerator, 1000);
     // initial moves
-    moves.innerHTML = `<span>Moves:</span> ${movesCount}`;
+    moves.innerHTML = `<span>Moves: </span> ${movesCount}`;
     initializer();
 });
 
 // Stop game
 stopButton.addEventListener("click", (stopGame = () => {
-    // controls.classList.remove("hide");
-    // stopButton.classList.add("hide");
+    //controls.classList.remove("hide");
+    // stopButton.classList.add("hide"); 
+    // playButton.classList.remove("hide");
     // startButton.classList.remove("hide");
     clearInterval(interval);
     })
 );
+
+
 
 // Initialize values and function calls
 const initializer = () => {

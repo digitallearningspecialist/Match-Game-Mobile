@@ -14,15 +14,15 @@ let secondCard = false;
 
 // Items array
 const items = [
-    {name: "bear", clan: "nyagwai'", image: "../images/bear.png", audio: "../audio/Bear - Nyagwai.mp3"},
-    {name: "deer", clan: "neogë'", image: "../images/deer.png", audio: "../audio/Deer - Neoge.mp3"},
-    {name: "wolf", clan: "otá:yö:nih", image: "../images/wolf.png", audio: "../audio/Wolf - Otayonih.mp3"},
-    {name: "turtle", clan: "ha'no:wa:h", image: "../images/turtle.png", audio: "../audio/Turtle - Hanowah.mp3"},
-    {name: "beaver", clan: "nöganya'göh", image: "../images/beaver.png", audio: "../audio/Beaver - Noganyagoh.mp3"},
-    {name: "heron", clan: "jóäshä'", image: "../images/heron.png", audio: "../audio/Heron - Joasha.mp3"},
-    {name: "snipe", clan: "nö'dzahgwë'", image: "../images/sandpiper.png", audio: "../audio/Snipe - Nodzahgwe.mp3"},
-    {name: "hawk", clan: "gaji'da:s", image: "../images/hawk.png", audio: "../audio/Hawk - Gajidas.mp3"},
-    {name: "eel", clan: "goda:nöh", image: "../images/eel.png", audio: "../audio/giigoonh.mp3"},
+    {name: "Bear", clan: "Nyagwai'", image: "../images/bear.png", audio: "../audio/Bear - Nyagwai.mp3"},
+    {name: "Deer", clan: "Neogë'", image: "../images/deer.png", audio: "../audio/Deer - Neoge.mp3"},
+    {name: "Wolf", clan: "Otá:yö:nih", image: "../images/wolf.png", audio: "../audio/Wolf - Otayonih.mp3"},
+    {name: "Turtle", clan: "Ha'no:wa:h", image: "../images/turtle.png", audio: "../audio/Turtle - Hanowah.mp3"},
+    {name: "Beaver", clan: "Nöganya'göh", image: "../images/beaver.png", audio: "../audio/Beaver - Noganyagoh.mp3"},
+    {name: "Heron", clan: "Jóäshä'", image: "../images/heron.png", audio: "../audio/Heron - Joasha.mp3"},
+    {name: "Snipe", clan: "Nö'dzahgwë'", image: "../images/sandpiper.png", audio: "../audio/Snipe - Nodzahgwe.mp3"},
+    {name: "Hawk", clan: "Gaji'da:s", image: "../images/hawk.png", audio: "../audio/Hawk - Gajidas.mp3"},
+    {name: "Eel", clan: "Goda:nöh", image: "../images/eel.png", audio: "../audio/giigoonh.mp3"},
 ];
 
 // Items array

@@ -14,15 +14,16 @@ let secondCard = false;
 
 // Items array
 const items = [
-    {name: "Bear", clan: "Ohkwá:ri", image: "../images/bear.png", audio: "../audio/Bear - Ohkwari.mp3"},
-    {name: "Deer", clan: "Ohskennón:ton", image: "../images/deer.png", audio: "../audio/Deer - Ohskennonton.mp3"},
-    {name: "Wolf", clan: "Okwáho", image: "../images/wolf.png", audio: "../audio/Wolf - Okwaho.mp3"},
-    {name: "Turtle", clan: "A'nó:wara", image: "../images/turtle.png", audio: "../audio/Turtle - A'nowara.mp3"},
-    {name: "Beaver", clan: "Tsyanì:to", image: "../images/beaver.png", audio: "../audio/Beaver - Tsyanito.mp3"},
-    {name: "Heron", clan: "Ohá:kwaront", image: "../images/heron.png", audio: "../audio/Heron - Ohakwaront.mp3"},
-    {name: "Snipe", clan: "Tawístawis", image: "../images/sandpiper.png", audio: "../audio/Snipe - Tawistawis.mp3"},
-    {name: "Hawk", clan: "Karhakón:ha", image: "../images/hawk.png", audio: "../audio/Hawk - Karhakonha.mp3"},
-    {name: "Eel", clan: "Tyawerón:ko", image: "../images/eel.png", audio: "../audio/Eel - Tyaweronko.mp3"},
+    {name: "One", clan: "Úska", image: "../images/number-1-black.png", audio: "../audio/"},
+    {name: "Two", clan: "Tékni", image: "../images/number-2-turquoise.png", audio: "../audio/"},
+    {name: "Three", clan: "Ashʌ", image: "../images/number-3-blue.png", audio: "../audio/"},
+    {name: "Four", clan: "Kayé:", image: "../images/number-4-yellow.png", audio: "../audio/"},
+    {name: "Five", clan: "Wisk", image: "../images/number-5-green.png", audio: "../audio/"},
+    {name: "Six", clan: "Yá:yak", image: "../images/number-6-purple.png", audio: "../audio/"},
+    {name: "Seven", clan: "Tsya:ták", image: "../images/number-7-orange.png", audio: "../audio/"},
+    {name: "Eight", clan: "Tékeh", image: "../images/number-8-red.png", audio: "../audio/"},
+    {name: "Nine", clan: "Wá:the", image: "../images/number-9-brown.png", audio: "../audio/"},
+    {name: "Ten", clan: "Oyé:li", image: "../images/number-10-white.png", audio: "../audio/"},
 ];
 
 // Items array
@@ -91,17 +92,17 @@ const matrixGenerator = (cardValues, size = 4) => {
             after => back side (contains actual image)
             data-card-value is a custom attribute which stores the names of the cards to match later
         */
-        gameContainer.innerHTML += `
-        <div class="card-container container-fluid" data-card-value="${cardValues[i].name}" data-audio-value="${cardValues[i].audio}">
-            <div class="card-before container-fluid"></div>
-            <div class="card card-after text-center container-fluid">
-                <div class"card container-fluid">
-                    <p class="card-title cardtext">${cardValues[i].clan}</p>
-                    <img src="${cardValues[i].image}" class="container-fluid">
-                    <p class="card-title cardtext">${cardValues[i].name}</p>
+            gameContainer.innerHTML += `
+            <div class="card-container container-fluid" data-card-value="${cardValues[i].name}" data-audio-value="${cardValues[i].audio}">
+                <div class="card-before container-fluid"></div>
+                <div class="card card-after text-center container-fluid">
+                    <div class"card container-fluid">
+                        <p class="card-title cardtext">${cardValues[i].clan}</p>
+                        <img src="${cardValues[i].image}" class="container-fluid">
+                        <p class="card-title cardtext">${cardValues[i].name}</p>
+                    </div>
                 </div>
-            </div>
-        </div>`;
+            </div>`;
     }
     // Grid
     gameContainer.style.gridTemplateColumns = `repeat(${size}, auto)`;

@@ -14,15 +14,16 @@ let secondCard = false;
 
 // Items array
 const items = [
-    {name: "Bear", clan: "Ohkwá:ri", image: "../images/bear.png", audio: "../audio/Bear - Ohkwari.mp3"},
-    {name: "Deer", clan: "Ohskennón:ton", image: "../images/deer.png", audio: "../audio/Deer - Ohskennonton.mp3"},
-    {name: "Wolf", clan: "Okwáho", image: "../images/wolf.png", audio: "../audio/Wolf - Okwaho.mp3"},
-    {name: "Turtle", clan: "A'nó:wara", image: "../images/turtle.png", audio: "../audio/Turtle - A'nowara.mp3"},
-    {name: "Beaver", clan: "Tsyanì:to", image: "../images/beaver.png", audio: "../audio/Beaver - Tsyanito.mp3"},
-    {name: "Heron", clan: "Ohá:kwaront", image: "../images/heron.png", audio: "../audio/Heron - Ohakwaront.mp3"},
-    {name: "Snipe", clan: "Tawístawis", image: "../images/sandpiper.png", audio: "../audio/Snipe - Tawistawis.mp3"},
-    {name: "Hawk", clan: "Karhakón:ha", image: "../images/hawk.png", audio: "../audio/Hawk - Karhakonha.mp3"},
-    {name: "Eel", clan: "Tyawerón:ko", image: "../images/eel.png", audio: "../audio/Eel - Tyaweronko.mp3"},
+    {name: "Food", clan: "Gákwaˀ", image: "../images/food.png", audio: "../audio/"},
+    {name: "Butter", clan: "Owidrá:taˀ", image: "../images/butter.png", audio: "../audio/"},
+    {name: "Salt", clan: "Ojihkeˀdaˀ", image: "../images/salt.png", audio: "../audio/"},
+    {name: "Pepper", clan: "Deyohsá:it", image: "../images/pepper.png", audio: "../audio/"},
+    {name: "Meat", clan: "Oˀwáhǫh", image: "../images/meat.png", audio: "../audio/"},
+    {name: "Corn", clan: "Onę́hęˀ", image: "../images/corn.png", audio: "../audio/"},
+    {name: "Beans", clan: "Osáheˀdaˀ", image: "../images/beans.png", audio: "../audio/"},
+    {name: "Squash", clan: "Ohnyǫ́hsaˀ", image: "../images/squash.png", audio: "../audio/"},
+    {name: "Corn Bread", clan: "Onęhę́ˀ onáda:ˀ", image: "../images/cornbread.png", audio: "../audio/"},
+    {name: "Eggs", clan: "Onhóhsa", image: "../images/eggs.png", audio: "../audio/"},
 ];
 
 // Items array
@@ -103,6 +104,7 @@ const matrixGenerator = (cardValues, size = 4) => {
             </div>
         </div>`;
     }
+
     // Grid
     gameContainer.style.gridTemplateColumns = `repeat(${size}, auto)`;
 

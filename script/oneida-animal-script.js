@@ -14,15 +14,15 @@ let secondCard = false;
 
 // Items array
 const items = [
-    {name: "bear", clan: "ohkwa:lí", image: "../images/bear.png", audio: "../audio/Bear - Ohkwal.mp3"},
-    {name: "deer", clan: "oskanu:tú:", image: "../images/deer.png", audio: "../audio/Deer - Oskanutu.mp3"},
-    {name: "wolf", clan: "thahyu:ní", image: "../images/wolf.png", audio: "../audio/Wolf - Othahyun.mp3"},
-    {name: "turtle", clan: "a'no:wálu", image: "../images/turtle.png", audio: "../audio/Turtle - A'nowal.mp3"},
-    {name: "beaver", clan: "tsyoní:tu'", image: "../images/beaver.png", audio: "../audio/Beaver - Tsyunitu.mp3"},
-    {name: "heron", clan: "hakwa:lúte'", image: "../images/heron.png", audio: "../audio/Heron - Ohakwalunt.mp3"},
-    {name: "snipe", clan: "tawistawí", image: "../images/sandpiper.png", audio: "../audio/Snipe - Tawistawi.mp3"},
-    {name: "hawk", clan: "kalhakú:ha", image: "../images/hawk.png", audio: "../audio/Hawk - Kalhakuha.mp3"},
-    {name: "eel", clan: "tawelu'kó:", image: "../images/eel.png", audio: "../audio/Eel - Taweluko.mp3"},
+    {name: "Bear", clan: "Ohkwa:lí", image: "../images/bear.png", audio: "../audio/Bear - Ohkwal.mp3"},
+    {name: "Deer", clan: "Oskanu:tú:", image: "../images/deer.png", audio: "../audio/Deer - Oskanutu.mp3"},
+    {name: "Wolf", clan: "Thahyu:ní", image: "../images/wolf.png", audio: "../audio/Wolf - Othahyun.mp3"},
+    {name: "Turtle", clan: "A'no:wálu", image: "../images/turtle.png", audio: "../audio/Turtle - A'nowal.mp3"},
+    {name: "Beaver", clan: "Tsyoní:tu'", image: "../images/beaver.png", audio: "../audio/Beaver - Tsyunitu.mp3"},
+    {name: "Heron", clan: "Hakwa:lúte'", image: "../images/heron.png", audio: "../audio/Heron - Ohakwalunt.mp3"},
+    {name: "Snipe", clan: "Tawistawí", image: "../images/sandpiper.png", audio: "../audio/Snipe - Tawistawi.mp3"},
+    {name: "Hawk", clan: "Kalhakú:ha", image: "../images/hawk.png", audio: "../audio/Hawk - Kalhakuha.mp3"},
+    {name: "Eel", clan: "Tawelu'kó:", image: "../images/eel.png", audio: "../audio/Eel - Taweluko.mp3"},
 ];
 
 // Items array

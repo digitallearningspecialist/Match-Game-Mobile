@@ -14,15 +14,15 @@ let secondCard = false;
 
 // Items array
 const items = [
-    {name: "bear", clan: "uhčíhrȩˀ", image: "../images/bear.png", audio: "../audio/Bear - Uhcihre.mp3"},
-    {name: "turtle", clan: "ráˀkwihs", image: "../images/turtle.png", audio: "../audio/Turtle - Ra'kwihs.mp3"},
-    {name: "wolf", clan: "ɵkwarì:nȩ", image: "../images/wolf.png", audio: "../audio/Wolf - Thkwarine.mp3"},
-    {name: "deer", clan: "á∙khweh", image: "../images/deer.png", audio: "../audio/Deer - Akhweh.mp3"},
-    {name: "hawk", clan: "nekanęˀɵnáhkhwaˀ", image: "../images/hawk.png", audio: "../audio/Hawk - Nekanethnakwa.mp3"},
-    {name: "snipe", clan: "tawístawis", image: "../images/sandpiper.png", audio: "../audio/Snipe - Tawistawis.mp3"},
-    {name: "heron", clan: "káheh", image: "../images/heron.png", audio: "../audio/Heron - Kaheh.mp3"},
-    {name: "beaver", clan: "čúˀnakȩˀ", image: "../images/beaver.png", audio: "../audio/Beaver - Cu'nake'.mp3"},
-    {name: "eel", clan: "kę∙‘nęh", image: "../images/eel.png", audio: "../audio/Eel - Ke'neh.mp3"},
+    {name: "Bear", clan: "Uhčíhrȩˀ", image: "../images/bear.png", audio: "../audio/Bear - Uhcihre.mp3"},
+    {name: "Turtle", clan: "Ráˀkwihs", image: "../images/turtle.png", audio: "../audio/Turtle - Ra'kwihs.mp3"},
+    {name: "Wolf", clan: "Ɵkwarì:nȩ", image: "../images/wolf.png", audio: "../audio/Wolf - Thkwarine.mp3"},
+    {name: "Deer", clan: "Á∙khweh", image: "../images/deer.png", audio: "../audio/Deer - Akhweh.mp3"},
+    {name: "Hawk", clan: "Nekanęˀɵnáhkhwaˀ", image: "../images/hawk.png", audio: "../audio/Hawk - Nekanethnakwa.mp3"},
+    {name: "Snipe", clan: "Tawístawis", image: "../images/sandpiper.png", audio: "../audio/Snipe - Tawistawis.mp3"},
+    {name: "Heron", clan: "Káheh", image: "../images/heron.png", audio: "../audio/Heron - Kaheh.mp3"},
+    {name: "Beaver", clan: "Čúˀnakȩˀ", image: "../images/beaver.png", audio: "../audio/Beaver - Cu'nake'.mp3"},
+    {name: "Eel", clan: "Kę∙'nęh", image: "../images/eel.png", audio: "../audio/Eel - Ke'neh.mp3"},
 ];
 
 // Items array
